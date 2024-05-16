@@ -1,0 +1,15 @@
+.input-label {
+    @apply block font-medium text-sm text-gray-700
+}
+input[type="text"] {
+    @apply w-full border-gray-300 focus:border-primary focus:ring-primary rounded-md shadow-sm 
+}
+input[type="email"] {
+    @apply w-full border-gray-300 focus:border-primary focus:ring-primary rounded-md shadow-sm
+}
+input[type="password"] {
+    @apply w-full border-gray-300 focus:border-primary focus:ring-primary rounded-md shadow-sm
+}
+.input-error {
+    @apply text-sm text-red-600 space-y-1
+}

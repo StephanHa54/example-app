@@ -1,0 +1,52 @@
+/* Modal styliing */
+.center-of-window{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.clear-background{
+    background-color: rgb(255 255 255);
+    opacity: 0%;
+}
+.light-background{
+    background-color: rgb(107 114 128);
+    opacity: 40%;
+}
+.dark-background{
+    background-color: rgb(55 65 81);
+    opacity: 60%;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+progress[value] {
+    --color: blue; /* the progress color */
+    --background: lightgrey; /* the background color */
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10em;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+}

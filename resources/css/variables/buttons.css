@@ -1,0 +1,27 @@
+.btn-primary-accent {
+    @apply inline-flex items-center px-4 py-2 bg-primary border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-accent active:bg-accent focus:outline-none focus:bg-accent focus:ring ring-primary disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-primary-ghost {
+    @apply inline-flex items-center px-4 py-2 bg-primary border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-white hover:text-primary active:bg-white active:text-primary focus:outline-none focus:text-primary focus:bg-white focus:ring ring-primary disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-accent-primary {
+    @apply inline-flex items-center px-4 py-2 bg-accent border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-primary active:bg-primary focus:outline-none focus:bg-primary focus:ring ring-accent disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-accent-ghost {
+    @apply inline-flex items-center px-4 py-2 bg-accent border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-white hover:text-primary active:bg-white active:text-primary focus:outline-none focus:text-primary focus:bg-white focus:ring ring-accent disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-ghost-primary {
+    @apply inline-flex items-center px-4 py-2 bg-white border border-transparent rounded-md font-semibold text-xs text-primary uppercase tracking-widest hover:bg-primary hover:text-white active:bg-primary active:text-white focus:outline-none focus:text-white focus:bg-primary focus:ring ring-white disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-ghost-accent {
+    @apply inline-flex items-center px-4 py-2 bg-white border border-transparent rounded-md font-semibold text-xs text-accent uppercase tracking-widest hover:bg-accent hover:text-white active:bg-accent active:text-white focus:outline-none focus:text-white focus:bg-accent focus:ring ring-white disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-gray-primary {
+    @apply inline-flex items-center px-4 py-2 bg-gray-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-primary hover:text-white active:bg-primary active:text-white focus:outline-none focus:text-white focus:bg-primary focus:ring ring-white disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-gray-accent {
+    @apply inline-flex items-center px-4 py-2 bg-gray-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-accent hover:text-white active:bg-accent active:text-white focus:outline-none focus:text-white focus:bg-accent focus:ring ring-white disabled:opacity-25 transition ease-in-out duration-150
+}
+.btn-danger {
+    @apply inline-flex items-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition ease-in-out duration-150
+}
